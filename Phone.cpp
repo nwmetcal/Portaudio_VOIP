@@ -152,10 +152,10 @@ void Phone::init_streams() {
   }
 
   int dev1;
-  cout << "Enter input device: ";
+  cout << "Enter input device number: ";
   cin >> dev1;
   int dev2;
-  cout << "Enter output device: ";
+  cout << "Enter output device number: ";
   cin >> dev2;
   
   stream1 = pa.OpenStream( dev1 );
