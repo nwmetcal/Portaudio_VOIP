@@ -1,5 +1,5 @@
-#ifndef SOCKS_H_
-#define SOCKS_H_
+#ifndef SOCKS_UTIL_H_
+#define SOCKS_UTIL_H_
 
 #define MAX_FNAME 256
 #define SOCKS_UNINIT_SD -1
@@ -49,4 +49,4 @@ Close socket td
 extern void socks_close(int td);
 
 
-#endif /* SOCKS_H_ */
+#endif /* SOCKS_UTIL_H_ */

@@ -1,7 +1,7 @@
-### Makefile for AUDIO ###
+### Makefile for Phone ###
 
 # Change to desired executable name
-EXECUTABLE = audio
+EXECUTABLE = exec
 # Change to desired compiler
 CXX = g++
 UNAME_S := $(shell uname -s)

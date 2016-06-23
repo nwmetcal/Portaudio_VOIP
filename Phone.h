@@ -1,7 +1,7 @@
 #ifndef PHONE_H_
 #define PHONE_H_
 
-#include "socks.h"
+#include "socks_util.h"
 #include "pa_utility.h"
 
 #include <netinet/in.h>
