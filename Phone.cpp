@@ -125,10 +125,6 @@ int Phone::parse_args(int argc, char *argv[]) {
     cout << "Error: Set as receiver, but no server address provided" << endl;
     exit(1);
   }
-  if (!mode_set) {
-    cout << "Error: Must specify a single mode <TCP/UDP>" << endl;
-    exit(1);
-  }
 
   return (0);
 }
